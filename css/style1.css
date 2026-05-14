@@ -19,11 +19,12 @@ h1, h2, h3 {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: seperate;
     margin: 20px 0;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 15px;
+    border-spacing: 0;
+   
 }
 
 th, td {
@@ -37,31 +38,45 @@ th {
     text-align: left;
 }
 
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-
 ul, ol {
     background: #fff;
     padding: 20px 40px;
     border-left: 3px dashed #3498db;
+
 }
 
 li {
     margin-bottom: 10px;
+
 }
 
 .links a {
     margin-right: 15px;
     padding: 5px 10px;
-    background: #685166;
+    background: #7b818e;
     color: white;
     text-decoration: none;
     border-radius: 4px;
+
 }
 
+img{
+	height: 130px;
+	width: 130px;
+	border-radius: 30%;
+	display: block;
+	margin: auto;
+
+}
+
+tr:hover{
+	background: #d9ecff;
+	border-radius: 50px;
+}
+
+.links a:hover{
+	background: #7bd0ed;
+	border-radius: 4px;
+	padding: 5px 10px;
+	
+}
