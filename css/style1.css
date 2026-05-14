@@ -34,7 +34,6 @@ h2, h3{
     transform: scale(1.01);
 }
 
-/* Ảnh */
 img{
     width: 160px;
     height: 160px;
@@ -45,7 +44,6 @@ img{
     margin: auto;
 }
 
-/* Bảng */
 table{
     width: 100%;
     border-spacing: 0;
@@ -70,7 +68,6 @@ tr:hover{
     background: #e3f2fd;
 }
 
-/* Danh sách */
 ul, ol{
     background: white;
     padding: 20px 40px;
@@ -78,7 +75,6 @@ ul, ol{
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* Liên hệ */
 .links{
     background: white;
     padding: 20px;
